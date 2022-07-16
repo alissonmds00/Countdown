@@ -1,9 +1,10 @@
-let segs = document.getElementById('segs')
-let mins = document.getElementById('mins')
-let hora = document.getElementById('hora')
-let dias = document.getElementById('dia')
+const segs = document.querySelector('#segs').innerHTML
+const mins = document.querySelector('#mins').innerHTML
+const hora = document.querySelector('#hora').innerHTML
+const dia = document.querySelector('#dia').innerHTML
+const vs = Number(segs)
+const vm = Number(mins)
+const vh = Number(hora)
+const vd = Number(dia)
 
 
-while (hora > 0 && mins > 0) {
-
-}
